@@ -1,0 +1,17 @@
+.form {
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+  background: linear-gradient(#1B6B93, #164B60);
+}
+.form .btn {
+  background-color: #468B97;
+  border: #468B97;
+  font-size: 1.3rem;
+}
+.form .btn:hover {
+  background-color: #64c4d4;
+}/*# sourceMappingURL=form.css.map */

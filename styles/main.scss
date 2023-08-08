@@ -1,0 +1,155 @@
+@import './header';
+@import './form';
+@import './footer';
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.video{
+    position:relative;
+    height: 50vh;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.tag{
+    background: linear-gradient(#1D5B79,#468B97);
+    color: white;
+    .build{
+        color: rgb(231, 31, 31);
+    }
+}
+.main-slider{
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .btn{
+        background-color: #468B97;
+        border: #468B97;
+        font-size: 1.3rem;
+    }
+    .btn:hover{
+        background-color: #64c4d4;
+    }
+    .location{
+        font-weight: bold;
+        font-style: italic;
+    }
+    .hr{
+        width: 98%;
+    }
+}
+.trainer{
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .btn{
+        background-color: #468B97;
+        border: #468B97;
+        font-size: 1.3rem;
+    }
+    .btn:hover{
+        background-color: #64c4d4;
+    }
+}
+
+.galeria{
+    img{
+        width: 18rem;
+        height: 18rem;
+        object-fit: cover;
+        overflow: hidden;
+        
+    }
+}
+.show-more-btn{
+    .btn{
+        background-color: #468B97;
+        border: #468B97;
+        font-size: 1.3rem;
+    }
+    .btn:hover{
+        background-color: #64c4d4;
+    }
+}
+.main-menu{
+    ul{
+        li{
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+    
+}
+    
+@media (max-width:575px){
+    .top-menu{
+        overflow: hidden;
+    }
+    .currenttag{
+            h6{
+                text-align: center;
+            }
+    }
+    .main-menu{
+        .nav-as{
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgb(192, 189, 189);
+        }
+    }
+    header{
+        .top-menu{
+            position: absolute;
+            top: 1rem;
+            right: 0;
+        }
+    }
+    main{
+        h1, h2{
+            text-align: center;
+        }
+    }
+    .footer-menu{
+        ul{
+            li{
+                margin: auto;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        
+    }
+    footer{
+        h5, p{
+            text-align: center;
+        }
+        /*
+        .a-color{
+            justify-content: center;
+            .first{
+                width: 50%;
+            }
+            .second{
+                width: 50%;
+                text-align: left;
+            }
+        }*/
+    }
+    
+}

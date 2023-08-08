@@ -1,0 +1,17 @@
+.copyright {
+  background-color: #0A4D68;
+  height: 2rem;
+}
+
+footer {
+  background-color: #088395;
+  color: white;
+}
+footer .footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+footer .contacts .ak {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=footer.css.map */
