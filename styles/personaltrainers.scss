@@ -22,3 +22,11 @@ h1{
 .booking{
     color: black;
 }
+.number{
+    color: blue;
+}
+@media  (max-width:575px){
+    h5,p{
+        text-align: center;
+    }
+}
