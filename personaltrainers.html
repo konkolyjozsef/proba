@@ -3,164 +3,353 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Kovács János</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="styles/personaltrainers.css">
+    <link rel="stylesheet" href="/styles/personal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
-    <div class="container">
-        <h1 class="mt-2">Személyi edzőink időpont foglalása:</h1>
+    <main class="container">
+      <h1 class="mt-5">Kovács János</h1>
+      <section class="persondetails mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="imgs/elsoedzo.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h3 class="mt-3">Mikor válassz engem:</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Commodi impedit enim vel dolore voluptatibus nostrum numquam neque vitae optio consectetur, 
+               cum iusto nihil atque! Laborum quisquam rerum facere similique tempore!</p>
+          </div>
+        </div>
+      </section>
+      <section class="prize mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3 first-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Alkalmi bérlet</h5>
+                <p class="card-text">Minden kategória</p>
+                <h4 class="card-text"><b>4000</b>Ft</h4>
+                <hr class="mt-3 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, totam?</p>
+                <p><a href="#" class="btn btn-primary">Érdekel</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Havi bérlet</h5>
+                <p class="card-text">Súlyzós edzés</p>
+                <h4 class="card-text"><b>30000</b>Ft</h4>
+                <hr class="mt-3 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, totam?</p>
+                <p><a href="#" class="btn btn-primary">Érdekel</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Éves bérlet</h5>
+                <p class="card-text">Cardió</p>
+                <h4 class="card-text"><b>300000</b>Ft</h4>
+                <hr class="mt-3 mb-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, totam?</p>
+                <p><a href="#" class="btn btn-primary">Érdekel</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="contact mt-5">
+        <div class="row">
+          <div class="col-sm12 col-md-6 col-lg-6">
+            <h6>Ha felkeltettem az érdeklődésed/ kérdésed van <i class="bi bi-arrow-down"></i></h6>
+            <p>Telefon: <a href="#">+36 20 587 6987</a></p>
+            <p>Email: <a href="#">valami@valami.hu</a></p>
+          </div>
+          <div class="col-sm12 col-md-6 col-lg-6">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Hétfő-Szerda</th>
+                  <th scope="col">Kedd-Csütörtök</th>
+                  <th scope="col">Péntek-Szombat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">7:00-9:00</th>
+                  <td class="booked">Foglalt</td>
+                  <td class="booked">Foglalt</td>
+                  <td class="free">Szabad</td>
+                </tr>
+                <tr>
+                  <th scope="row">9:30-11:00</th>
+                  <td class="free">Szabad</td>
+                  <td class="booked">Foglalt</td>
+                  <td class="free">Szabad</td>
+                </tr>
+                <tr>
+                  <th scope="row">12:00-14:00</th>
+                  <td class="free">Szabad</td>
+                  <td class="free">Szabad</td>
+                  <td class="free">Szabad</td>
+                </tr>
+                <tr>
+                  <th scope="row">15:00-17:00</th>
+                  <td class="booked">Foglalt</td>
+                  <td class="free">Szabad</td>
+                  <td class="free">Szabad</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         
-          <div class="row mt-4">
-            <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
-              <h5>Miért is lett az edzősködés az életem?</h5>
-              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a, 
-                asperiores illum quis incidunt ullam modi laudantium sunt sed reiciendis, libero voluptatibus iste?</p>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-8">
-                <table class="table table-hover">
-                  <thead>
-                    <tr>
-                      <th scope="col"><h3>Kovács János</h3></th>
-                      <th scope="col">Hétfő-szerda</th>
-                      <th scope="col">Csütörtök-péntek</th>
-                      <th scope="col">Szombat</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">8:00-9:00</th>
-                      <td><a href="#">Szabad</a></td>
-                      <td>Foglalt</td>
-                      <td><a href="#">Szabad</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10:00-11:00</th>
-                      <td>Foglalt</td>
-                      <td><a href="#">Szabad</a></td>
-                      <td>Foglalt</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">11:00-12:00</th>
-                      <td><a href="#">Szabad</a></td>
-                      <td>Foglalt</td>
-                      <td><a href="#">Szabad</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">13:00-14:00</th>
-                      <td>Foglalt</td>
-                      <td>Foglalt</td>
-                      <td>Foglalt</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">15:00-16:00</th>
-                      <td><a href="#">Szabad</a></td>
-                      <td><a href="#">Szabad</a></td>
-                      <td>Foglalt</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">17:00-18:00</th>
-                      <td><a href="#">Szabad</a></td>
-                      <td>Foglalt</td>
-                      <td><a href="#">Szabad</a></td>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
-          </div>
-          
-          <div class="contact">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center  mt-4">
-                <h5>Telefonos foglalás: <a href="#" class="number">+362054783654</a></h5>
+        
+        
+      </section>
+    </main>
+    <footer class="container mt-3">
+      <div class="social d-flex justify-content-end">
+        <i class="bi bi-facebook px-3"></i>
+        <i class="bi bi-whatsapp px-3"></i>
+        <i class="bi bi-instagram px-3"></i>
+      </div>
+      <div class="copyright text-center">
+        <p>Copyright <span>&#169;</span> 2023 Fitness firm</p>
+      </div>
+    </footer>
+    <!-- 
+    <main class="container">
+      <h1 class="mt-4 mb-3">Személyi edzőink:</h1>
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-12 col-md-8 col-lg-7">
+            <h2 class="mt-4 mb-4">Kovács János</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <h6>Személyes infók</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-7 col-lg-6 d-flex justify-content-center">
+                        <img src="imgs/elsoedzo.jpg" alt="">
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-6">
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, at esse. Soluta quaerat alias totam, 
+                          necessitatibus fugit illum corrupti doloremque dignissimos placeat iste.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6  d-flex justify-content-center mt-4">
-                <h5>Email: <a href="#" class="number">valami@valami.com</a></h5>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <h6>Munkabeosztás</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Hétfőtől péntekig  <i> 7-16-ig</i></div>
+                  
+                </div>
               </div>
-              
-            </div>
-            
-          </div>
-          <!-- Női edző: -->
-          <div class="row mt-5">
-            <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
-              <h5>Miért is lett az edzősködés az életem?</h5>
-              <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a, 
-                asperiores illum quis incidunt ullam modi laudantium sunt sed reiciendis, libero voluptatibus iste?</p>
-            </div>
-            <div class="col-sm-12 col-md-8 col-lg-8">
-              <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col"><h3>Kovács Kamilla</h3></th>
-                    <th scope="col">Kedd-szerda</th>
-                    <th scope="col">Csütörtök-péntek</th>
-                    <th scope="col">Vasárnap</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">6:00-7:00</th>
-                    <td><a href="#">Szabad</a></td>
-                    <td>Foglalt</td>
-                    <td><a href="#">Szabad</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">8:00-9:00</th>
-                    <td>Foglalt</td>
-                    <td><a href="#">Szabad</a></td>
-                    <td>Foglalt</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">11:00-12:00</th>
-                    <td><a href="#">Szabad</a></td>
-                    <td>Foglalt</td>
-                    <td><a href="#">Szabad</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">13:00-14:00</th>
-                    <td>Foglalt</td>
-                    <td>Foglalt</td>
-                    <td>Foglalt</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">15:00-16:00</th>
-                    <td><a href="#">Szabad</a></td>
-                    <td><a href="#">Szabad</a></td>
-                    <td>Foglalt</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          
-          <div class="contact">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center  mt-4">
-                <h5>Telefonos foglalás: <a href="#" class="number">+362054783654</a></h5>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <h6>Táblazat a foglaláshoz</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Hétfő-Szerda</th>
+                          <th scope="col">Kedd-Csütörtök</th>
+                          <th scope="col">Péntek-Szombat</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">7:00-9:00</th>
+                          <td class="booked">Foglalt</td>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9:30-11:00</th>
+                          <td class="free">Szabad</td>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12:00-14:00</th>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:00-17:00</th>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6  d-flex justify-content-center mt-4">
-                <h5>Email: <a href="#" class="number">valami@valami.com</a></h5>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <h6>Elérhetőség</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="left">
+                      <p>Telefon: <a href="#">+36 205896587</a></p>
+                    </div>
+                    <div class="right">
+                      <p>Email: <a href="#">valami@valami.com</a></p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              
             </div>
-            
           </div>
-          <div class="returntomainpage mt-5 d-flex justify-content-center">
-            <a href="index.html" class="btn btn-primary py-3">Vissza a fő oldalra</a>
+          <hr class="hr mt-4 mb-4">
+          <div class="col-sm-12 col-md-8 col-lg-7">
+            <h2 class="mt-4 mb-4">Kovács Katalin</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    <h6>Személyes infók</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-7 col-lg-6 d-flex justify-content-center">
+                        <img src="imgs/masodikedzo.jpg" alt="">
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-6">
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, at esse. Soluta quaerat alias totam, 
+                          necessitatibus fugit illum corrupti doloremque dignissimos placeat iste.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    <h6>Munkabeosztás</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">Hétfőtől péntekig  <i> 7-16-ig</i></div>
+                  
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                    <h6>Táblazat a foglaláshoz</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Hétfő-Szerda</th>
+                          <th scope="col">Kedd-Csütörtök</th>
+                          <th scope="col">Péntek-Szombat</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">7:00-9:00</th>
+                          <td class="booked">Foglalt</td>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9:30-11:00</th>
+                          <td class="free">Szabad</td>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12:00-14:00</th>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15:00-17:00</th>
+                          <td class="booked">Foglalt</td>
+                          <td class="free">Szabad</td>
+                          <td class="free">Szabad</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingEight">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                    <h6>Elérhetőség</h6>
+                  </button>
+                </h2>
+                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample2">
+                  <div class="accordion-body">
+                    <div class="left">
+                      <p>Telefon: <a href="#">+36 205896587</a></p>
+                    </div>
+                    <div class="right">
+                      <p>Email: <a href="#">valami@valami.com</a></p>
+                    </div>
+                      
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-    </div>
+      </div>
+  
+      <div class="back-button d-flex justify-content-center mt-5">
+        <a href="index.html" class="btn btn-primary">Vissza a főoldalra</a>
+  
+      </div>
+    </main>
+    
+<footer class="mt-4">
+  <div class="copyright text-center">
+    <p>Copyright <span>&#169;</span> 2023 Fitness firm</p>
+  </div>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
+-->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

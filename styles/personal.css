@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.prize .card {
+  background-color: rgb(19, 68, 97);
+  color: white;
+}
+.prize h5, .prize h4, .prize h3, .prize p {
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.contact .free {
+  color: green;
+}
+.contact .booked {
+  color: red;
+}
+.contact h6 {
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+}
+
+.social i {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 576px) {
+  h3, p {
+    text-align: center;
+  }
+  i {
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .first-card {
+    margin-top: 0;
+  }
+}
+/*main{
+    img{
+        width: 250px;
+        object-fit: cover;
+    }
+}
+h2{
+    text-align: center;
+}
+.free{
+    color: green;
+}
+.booked{
+    color: red;
+}
+.hr{
+    width: 70%;
+}
+.back-button{
+    .btn{
+        padding: 1rem;
+        background-color: rgb(41, 67, 68);
+        border-color: rgb(41, 67, 68);
+    }
+    .btn:hover{
+        background-color: rgb(66, 106, 107);
+    }
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.left
+{
+    float: left;
+    width: 50%;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+@media (max-width:576px){
+    .left{
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+    }
+}*/
+h1 {
+  text-align: center;
+}/*# sourceMappingURL=personal.css.map */
