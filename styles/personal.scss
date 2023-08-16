@@ -34,7 +34,14 @@ width: 100%;
 .btn{
     text-decoration: none;
     border-radius: 10px;
-
+    background-color: rgb(13, 197, 243);
+    border: rgb(255, 5, 5);
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.btn:hover{
+    background-color: rgb(8, 61, 75);
 }
 hr{
     width: 50%;
@@ -43,6 +50,15 @@ hr{
 .social{
     i{
         font-size: 1.3rem;
+    }
+}
+.back-button{
+    a{
+        background-color: rgb(44, 94, 110);
+        border: rgb(44, 94, 110);
+    }
+    a:hover{
+        background-color: rgb(66, 140, 165);
     }
 }
 @media (max-width:576px){
@@ -55,6 +71,10 @@ hr{
     }
     .first-card{
         margin-top: 0;
+    }
+    .back-button{
+        display: flex;
+        justify-content: center;
     }
 }
 /*main{
